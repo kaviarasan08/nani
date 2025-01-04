@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Transformation with CSS</title>
+  <style>
+    /* Global body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    /* Class selectors for text transformation */
+    .capitalize {
+      text-transform: capitalize; /* First letter of each word is capitalized */
+    }
+
+    .uppercase {
+      text-transform: uppercase; /* All letters in uppercase */
+    }
+
+    .lowercase {
+      text-transform: lowercase; /* All letters in lowercase */
+    }
+
+    /* Additional styling for headings and sections */
+    h1 {
+      color: #333;
+      text-align: center;
+      text-transform: uppercase; /* Always display headings in uppercase */
+    }
+
+    .section {
+      margin: 20px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    .section p {
+      font-size: 1.1em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Text Transformation Example</h1>
+
+  <div class="section">
+    <h2>Capitalized Text</h2>
+    <p class="capitalize">this text will have the first letter of each word capitalized.</p>
+  </div>
+
+  <div class="section">
+    <h2>Uppercase Text</h2>
+    <p class="uppercase">this text will appear entirely in uppercase.</p>
+  </div>
+
+  <div class="section">
+    <h2>Lowercase Text</h2>
+    <p class="lowercase">THIS TEXT WILL APPEAR ENTIRELY IN LOWERCASE.</p>
+  </div>
+
+</body>
+</html>
